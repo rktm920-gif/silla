@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.score-board {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#score {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    border: 5px solid #333;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gem {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff3;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gem:hover {
+    transform: scale(1.1);
+}
