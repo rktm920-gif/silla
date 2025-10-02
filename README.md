@@ -18,3 +18,5 @@
 ## 실행 방법
 
 `index.html` 파일을 웹 브라우저에서 열면 바로 게임을 즐길 수 있습니다.
+
+**실행 주소:** [https://rktm920-gif.github.io/silla/](https://rktm920-gif.github.io/silla/)
